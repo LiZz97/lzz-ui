@@ -3,6 +3,10 @@
 基于 vue3 + Element Plus UI 进行二次封装，通过传入配置项快速实现组件。一些参数参考[Element Plus UI](https://element-plus.gitee.io/zh-CN/)
 
 
+# Github
+[lzz-ui github](https://github.com/LiZz97/lzz-ui)
+
+
 
 # 使用说明
 
