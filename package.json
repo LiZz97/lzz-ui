@@ -1,0 +1,47 @@
+{
+  "name": "lzz-ui",
+  "description": "对Element Plus部分组件进行二次封装",
+  "version": "0.0.2-beat",
+  "author": "lizhizeng<944822640@qq.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/lzz-ui.es.js",
+  "main": "./dist/lzz-ui.umd.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lzz-ui.es.js",
+      "require": "./dist/lzz-ui.umd.js"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "keywords": [
+    "vue3",
+    "Element Plus"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "element-plus": "^2.1.7",
+    "@element-plus/icons-vue": "^1.0.0",
+    "path": "^0.12.7",
+    "unplugin-auto-import": "^0.6.8",
+    "unplugin-vue-components": "^0.18.5",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.0",
+    "vite": "^2.8.0",
+    "vue-tsc": "^0.2.2",
+    "typescript": "^4.3.2"
+  }
+}
